@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  spring-vitoria-netprecision:
+    build: ./
+    ports:
+      - 9468:8080
